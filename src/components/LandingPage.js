@@ -1,7 +1,6 @@
 import React from 'react';
 import '../styles/LandingPage.css';
 import github from '../assets/GitHub-Mark-120px-plus.png'
-import resume from '../assets/MARTIN_MUI_resume.pdf'
 import resumelogo from '../assets/resume.png'
 
 const LandingPage = () => {
@@ -15,7 +14,7 @@ const LandingPage = () => {
                 <a href='https://github.com/martinchmui' target='_blank' rel='noreferrer'>
                     <img className='logo' src={github} alt='To Github' title='To Github'/>
                 </a>
-                <a href={resume} target='_blank' rel='noreferrer'>
+                <a href='https://drive.google.com/file/d/1NBdFo6PLqk7B_2nm_B95Ijw8aMIa-zO_/view?usp=sharing' target='_blank' rel='noreferrer'>
                     <img className='logo' src={resumelogo} alt='Resume' title='Resume'/>
                 </a>
             </div>
