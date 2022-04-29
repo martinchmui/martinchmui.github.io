@@ -16,7 +16,7 @@ const Projects = () => {
             <div><h1 className='heading'>Projects</h1></div>
             <div className='project'>
                 <div className='project_image borderleft'>
-                    <a href='https://martinchmui.github.io/contribution-calculator/' target='_blank' rel='noreferrer'>
+                    <a href='https://twitch-viewer.netlify.app/' target='_blank' rel='noreferrer'>
                         <img src={twitchviewerss} alt='Twitch Viewer' className='siteimage' />
                     </a>
                 </div>
