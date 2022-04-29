@@ -1,0 +1,107 @@
+.projectsdiv {
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.project {
+    display: flex;
+    width: 100%;
+    margin-bottom: 6rem;
+}
+
+.project_image {
+    width: 50vw;
+    background-color: #65CEEF;
+    margin: auto;
+    transition: all 0.2s;
+}
+
+.project_image:hover {
+    transform: scale(1.025);
+}
+
+.borderleft {
+    padding: 0px 10px 6px 0px;
+}
+
+.project_image {
+    width: 50vw;
+    background-color: #65CEEF;
+    margin: auto;
+}
+
+.borderright {
+    padding: 0px 0px 6px 10px;
+}
+
+.siteimage {
+    width: 100%;
+}
+
+.project_info {
+    margin: 0 auto;
+    width: 30vw;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.demo {
+    background-color: #65CEEF;
+    color: white;
+}
+
+.project_links {
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.source {
+    background-color: white;
+    color: #65CEEF;
+}
+
+.linkbutton {
+    line-height: 40px;
+    padding: 0 5px;
+    border-radius: 4px;
+    font-weight: bold;
+    letter-spacing: 0.025rem;
+}
+
+.right {
+    flex-direction: row-reverse;
+}
+
+.skillsrow {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1rem
+}
+
+.skill {
+    height: 2rem;
+}
+
+.projectsdiv .heading {
+    margin-top: 3rem;
+}
+
+@media only screen and (max-width: 802px) {
+    .project {
+        flex-direction: column;
+    }
+
+    .project_image {
+        width: 80%;
+    }
+
+    .project_info {
+        width: 80%;
+    }
+
+    .linkbutton {
+        padding: 0 5px;
+    }
+}

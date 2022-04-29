@@ -1,0 +1,23 @@
+.contactdiv {
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.contactcontent {
+    font-size: 1.5rem;
+}
+
+.contactlink {
+    color: white;
+}
+
+.contactlink:hover {
+    color: #65CEEF;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 376px) {
+    .contactcontent {
+        font-size: 1.25rem;
+    }
+}

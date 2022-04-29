@@ -5,18 +5,25 @@ import resumelogo from '../assets/resume.png'
 
 const LandingPage = () => {
     return (
-        <div className='landingdiv'>
-            <div className='background'>
+        <div className='landingdiv container' id='home'>
+            <div className='background-container'>
+                <div className='background'></div>
             </div>
-            <div className='header top'>Hello, I'm <span>Martin</span></div>
+            <div className='header top'>Hello, I'm <span className='name'>Martin</span></div>
             <div className='header bot'>I'm a front end web developer</div>
-            <div className='header'>
-                <a href='https://github.com/martinchmui' target='_blank' rel='noreferrer'>
-                    <img className='logo' src={github} alt='To Github' title='To Github'/>
-                </a>
-                <a href='https://drive.google.com/file/d/1NBdFo6PLqk7B_2nm_B95Ijw8aMIa-zO_/view?usp=sharing' target='_blank' rel='noreferrer'>
-                    <img className='logo' src={resumelogo} alt='Resume' title='Resume'/>
-                </a>
+            <div className='header icon'>
+                <div className='icon-container'>
+                    <a href='https://github.com/martinchmui' target='_blank' rel='noreferrer'>
+                        <img className='logo' src={github} alt='To Github' title='To Github' />
+                        <figcaption>Github</figcaption>
+                    </a>
+                </div>
+                <div className='icon-container'>
+                    <a href='https://drive.google.com/file/d/1lhR6tZBzNb6MwIxT3srYQ5RgzJkpSlrg/view' target='_blank' rel='noreferrer'>
+                        <img className='logo' src={resumelogo} alt='Resume' title='Resume' />
+                        <figcaption>Resume</figcaption>
+                    </a>
+                </div>
             </div>
         </div>
     );
