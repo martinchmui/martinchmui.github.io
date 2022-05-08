@@ -25,6 +25,11 @@ const LandingPage = () => {
                     </a>
                 </div>
             </div>
+            <div className='projectslinkcontainer'>
+                <a href='#projects' id='projectslink'>
+                    View Projects <i class="fa-solid fa-arrow-down"></i>
+                </a>
+            </div>
         </div>
     );
 };
