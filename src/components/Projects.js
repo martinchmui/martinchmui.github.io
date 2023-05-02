@@ -1,19 +1,21 @@
-import React from "react";
-import "../styles/Projects.css";
-import twitchviewerss from "../assets/twitchviewerss.png";
-import tftrandomizerss from "../assets/tftrandomizerss.png";
-import contributioncalcss from "../assets/contributioncalcss.png";
-import recipeappss from "../assets/recipeappss.png";
-import html from "../assets/html.png";
-import css from "../assets/css.png";
-import javascript from "../assets/javascript.png";
-import react from "../assets/react.png";
-import redux from "../assets/redux.png";
-import JukeBx1 from "../assets/JukeBx1.png";
-import JukeBx2 from "../assets/JukeBx2.png";
-import JukeBx3 from "../assets/JukeBx3.png";
-import express from "../assets/express.png";
-import { Slide } from "react-slideshow-image";
+import React from 'react';
+import '../styles/Projects.css';
+import twitchviewerss from '../assets/twitchviewerss.png';
+import tftrandomizerss from '../assets/tftrandomizerss.png';
+import contributioncalcss from '../assets/contributioncalcss.png';
+import recipeappss from '../assets/recipeappss.png';
+import maokaimatchups from '../assets/maokaimatchups.netlify.app_.png';
+import html from '../assets/html.png';
+import css from '../assets/css.png';
+import javascript from '../assets/javascript.png';
+import typescript from '../assets/typescript.png';
+import react from '../assets/react.png';
+import redux from '../assets/redux.png';
+import JukeBx1 from '../assets/JukeBx1.png';
+import JukeBx2 from '../assets/JukeBx2.png';
+import JukeBx3 from '../assets/JukeBx3.png';
+import express from '../assets/express.png';
+import { Slide } from 'react-slideshow-image';
 
 const Projects = () => {
   const slideImages = [JukeBx1, JukeBx2, JukeBx3];
@@ -22,6 +24,58 @@ const Projects = () => {
       <div>
         <h1 className="heading">Projects</h1>
       </div>
+      <div className="project right">
+        <div className="project_image borderright">
+          <a
+            href="https://maokaimatchups.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src={maokaimatchups}
+              alt="Maokai Matchups"
+              className="siteimage"
+            />
+          </a>
+        </div>
+        <div className="project_info">
+          <div className="description">
+            <h2>Maokai Matchups</h2>
+            <p>
+              This app is a matchups site for League of Legends. The data is
+              sourced from a google spreadsheet and the assets from an external
+              API. This project was built to familiarize how Typescript works
+              with the React library.
+            </p>
+            <div className="skillsrow">
+              <img className="skill" src={html} alt="html" />
+              <img className="skill" src={css} alt="css" />
+              <img className="skill" src={typescript} alt="javascript" />
+              <img className="skill" src={react} alt="react" />
+              <img className="skill" src={redux} alt="redux" />
+            </div>
+          </div>
+          <div className="project_links">
+            <a
+              className="demo linkbutton"
+              href="https://maokaimatchups.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+            <a
+              className="source linkbutton"
+              href="https://github.com/martinchmui/maokai-matchups"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i class="fa-brands fa-github"></i> View Source
+            </a>
+          </div>
+        </div>
+      </div>
+
       <div className="project">
         <div className="project_image borderleft slideDiv">
           <a

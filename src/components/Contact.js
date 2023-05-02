@@ -7,7 +7,7 @@ const Contact = () => {
             <h1 className='heading'>Contact</h1>
             <div className='contactcontent'>
                 <a className='contactlink' href='mailto:martinchmui@hotmail.com'>
-                    <i class="fa-solid fa-envelope"></i> martinchmui@hotmail.com
+                    <i class="fa-solid fa-envelope"></i> martinchmui@gmail.com
                 </a>
             </div>
         </div>
