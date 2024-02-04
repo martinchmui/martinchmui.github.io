@@ -7,6 +7,8 @@ import Projects from './Projects';
 import Contact from './Contact';
 
 const App = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
     <div className="container">
       <LandingPage />
@@ -14,7 +16,7 @@ const App = () => {
       <Projects />
       <About />
       <Contact />
-      <footer>Made by Martin Mui ©2023</footer>
+      <footer>Made by Martin Mui ©{currentYear}</footer>
     </div>
   );
 };
